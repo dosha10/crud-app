@@ -1,4 +1,4 @@
-# A PHP CRUD Web APplication
+# A PHP CRUD Web Application
 
 ## Stack
 
