@@ -1,14 +1,4 @@
 <?php
-// $servername = 'localhost';
-// $username = 'frank';
-// $password = 'jeffireri';
-// $dbname = 'crud_app';
-
-// $conn = mysqli_connect($servername, $username, $password, $dbname);
-
-// if (!$conn) {
-//     die("Connection failed" . mysqli_connect_error());
-// }
 
 //Get Heroku ClearDB connection information
 $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
