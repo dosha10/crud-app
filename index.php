@@ -22,7 +22,7 @@
     </nav>
 
     <div class="container">
-        <?php
+      <?php
         if(isset($_GET['msg'])) {
           $msg = $_GET['msg'];
 
@@ -55,7 +55,7 @@
             </thead>
 
             <tbody>
-                <?php
+            <?php
              include "db_conn.php";
              
              $sql = "SELECT * FROM `crud`";
@@ -81,7 +81,7 @@
 
                 <?php
              }
-          ?>
+            ?>
             </tbody>
         </table>
     </div>
